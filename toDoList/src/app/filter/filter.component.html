@@ -1,0 +1,13 @@
+<form>
+    <fieldset>
+        <legend>Filter</legend>
+        <div class="add-task-header">
+            <input type="checkbox" id="showCompleted"><label for="showCompleted">show completed</label>
+            <input type="date" name="dataFrom" [(ngModel)]="dataFrom" class="dataFrom">
+            <input type="date" name="dataTo" [(ngModel)]="dataTo">
+        </div>
+        <div class="filter-search">
+            <input type="search" name="textSearch" [(ngModel)]="textSearch" placeholder="Text search (title + description)">
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,75 @@
+<form>
+    <fieldset>
+        <legend>Add Task</legend>
+        <div class="add-task-header">
+            <input type="text" placeholder="Title" name="titleValue" [(ngModel)]="titleValue">
+            <select name="selectValue" [(ngModel)]="selectValue">
+                <option>Priority</option>
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <input type="date" name="dataValue" [(ngModel)]="dataValue">
+        </div>
+        <div class="add-task-description">
+            <textarea placeholder="Description" name="textareaValue" [(ngModel)]="textareaValue"></textarea>
+        </div>
+        <button (click)="this.addTaskService.addTask(titleValue, selectValue, dataValue, textareaValue, this.addTaskService.myTask)">Add</button>
+    </fieldset>
+</form>
+
+<app-filter></app-filter>
+
+<table>
+    <tr>
+        <th>
+
+            <div>
+                <p>Done</p>
+                <div>
+                    <button>&#9652;</button>
+                    <button>&#9662;</button>
+                </div>
+            </div>
+        </th>
+        <th>
+
+            <div>
+                <p>Title</p>
+                <div>
+                    <button>&#9652;</button>
+                    <button>&#9662;</button>
+                </div>
+            </div>
+        </th>
+        <th>
+
+            <div>
+                <p>Priority</p>
+                <div>
+                    <button>&#9652;</button>
+                    <button>&#9662;</button>
+                </div>
+            </div>
+        </th>
+        <th>
+
+            <div>
+                <p>Date</p>
+                <div>
+                    <button>&#9652;</button>
+                    <button>&#9662;</button>
+                </div>
+
+            </div>
+        </th>
+    </tr>
+    <tr *ngFor="let elem of this.addTaskService.myTask; let i = index;">
+        <td>
+            <input type="checkbox">
+        </td>
+        <td>{{elem.titleValue}}</td>
+        <td>{{elem.selectValue}}</td>
+        <td>{{elem.dataValue}}</td>
+    </tr>
+</table>

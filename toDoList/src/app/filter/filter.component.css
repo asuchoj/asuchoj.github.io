@@ -1,0 +1,18 @@
+form {
+    margin: 10px 0;
+}
+
+.add-task-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.dataFrom {
+    margin: 0 10px;
+}
+
+.filter-search input{
+    width: 100%;
+}

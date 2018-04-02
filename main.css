@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+h2{
+	    padding: 5px;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    background-color: #F7FAFB;
+}
+
+.portfolio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+	opacity: 0.5;
+}
+
+.card1 {
+    background: url(img/card1.png);
+    background-size: 70%;
+    background-position-y: 35%;
+    background-position-x: 55%;
+    background-repeat: no-repeat;
+}
+.card2 {
+    background: url(img/card2.png);
+    background-size: 55%;
+    background-position-y: 35%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+.card3 {
+    background: url(img/card3.png);
+    background-size: 50%;
+    background-position-x: 50%;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+}
+
+.links {
+    position: absolute;
+    display: block;
+    content: " ";
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.web {
+    left: 35%;
+    background: url(img/web.png);
+    background-size: 100%;
+	opacity: 0.5;
+}
+
+.git {
+    right: 35%;
+    background: url(img/Github_icon.png);
+    background-size: 148%;
+    background-position: -7px -7px;
+	opacity: 0.5;
+}
+.git:hover,
+.web:hover {
+	opacity: 1;
+}
+.project:hover{
+	opacity: 1;
+}

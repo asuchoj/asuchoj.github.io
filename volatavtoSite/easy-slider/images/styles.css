@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin:0;
+	padding:0;
+	position:relative;
+	height:100%;
+	min-width:980px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#888;
+	background: #ffffff;
+    }
+.site-wrap {
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	width:980px;
+	margin:0 auto -30px;
+	background:#eee;
+    }
+header {
+	height:30px;
+	background:#000;
+	position:relative;
+    }
+footer{
+    height:30px;
+    width:980px;
+    margin:0 auto;
+    background:#000;
+    }
+
+/* for slider*/
+.slider-box{
+    width:320px;
+    height:210px;
+    margin:20px auto;
+    overflow:hidden;
+    }
+.slider{
+    position:relative;
+    width:10000px;
+    height:210px;
+    }
+.slider img{
+    float:left;
+    z-index:0;
+    }

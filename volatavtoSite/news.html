@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title> Новости </title>
+    <meta charset="utf-8">
+    <meta content="..." name="keywords">
+    <meta content="..." name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="javascript/jquery-1.9.1.min.js"></script><!-- ОБЩИЕ-->
+    <link href="images/logo/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="fonts/RobotoCondensed-Regular.ttf" rel="stylesheet">
+    <script src="javascript/javascript.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <!-- Для пагинатора -->
+    <link href="simplePagination/simplePagination.css" rel="stylesheet" type="text/css">
+    <script src="simplePagination/jquery.simplePagination.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="box">
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="header__box wrappers__1">
+            <!-- Логотип -->
+            <div class="header__emblem">
+                <a class="emblem" href="index.html" id="emblem"><span>ВОЛАТАВТО</span></a>
+            </div>
+            <!-- Кнопка поиска -->
+            <div class="header__content">
+                <div class="header__search">
+                    <form action="#" class="search" method="post">
+                        <input class="input" name="search" placeholder="поиск" type="search"> <input class="submit" name="search__buttom" type="submit" value="">
+                    </form>
+                </div>
+                <!-- Менюха -->
+                <div class="header__menu">
+                    <div class="header__menu__button">
+                        <a href="#"><img alt="заставка меню" src="images/button/menu.svg"></a>
+                    </div>
+                    <div class="header__menu__vertical-line"></div>
+                    <ul class="menu">
+                        <li class="icon icon-home">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="icon icon-user">
+                            <a href="about_company.html">О нас</a>
+                        </li>
+                        <li class="icon icon-camera">
+                            <a href="Our_production.html">Наша продукция</a>
+                        </li>
+                        <li class="icon icon-megaphone">
+                            <a href="news.html">Новости</a>
+                        </li>
+                        <li class="icon icon-mail">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Контент сайта -->
+    <div class="content">
+        <!-- Заглавное фото -->
+        <div class="content__photo">
+            <div class="photo__box">
+                <img alt="заглавное фото" src="images/Slider/slide12.jpeg">
+                <div class="photo__box__2">
+                    <h2>Новости</h2>
+                    <!-- хлебные крошки-->
+                    <ul class="breadcrumbs">
+                        <li class="step passed-step">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="step active-step">
+                            <a href="news.html">Новости</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Новости -->
+        <div class="content__news content__text wrappers__1 wrappers__2">
+            <div class="content__news__box__2">
+                <div class="content__news__box__2">
+                    <div class="news__box" >
+                        <article class="news">
+                            <div class="news__photo">
+                                <a href="news_1.html"><img alt="картинка новости" src="images/news/news4.jpg" title="картинка новости"></a>
+                            </div>
+                            <div class="news__link news__indentation">
+                                <h2><a href="news_1.html">Как выглядит новейший танк белорусской армии изнутри</a></h2>
+                            </div>
+                            <div class="news__data news__indentation">
+                                07-06-2017
+                            </div>
+                            <div class="news__content news__indentation">
+                                <p>Газета «Во славу Родины» опубликовала снимки танков Т-72Б3 с дополнительной защитой,
+                                    на которых было запечатлено боевое отделение новинок. Издание сообщает, что на
+                                    прошлой неделе был подписан контракт на модернизацию очередной партии танков
+                                    для белорусской армии с компанией «Уралвагонзавод».
+                                </p>
+                            </div>
+                            <div class="news__read__all news__indentation">
+                                <a href="news_1.html">Читать все</a>
+                            </div>
+                            <div class="jumper"></div>
+                        </article>
+                    </div>
+                    <div class="news__box news__color">
+                        <article class="news">
+                            <div class="news__photo">
+                                <a href="news_1.html"><img alt="картинка новости" src="images/news/news5.jpg" title="картинка новости"></a>
+                            </div>
+                            <div class="news__link news__indentation">
+                                <h2>
+                                    <a href="news_1.html"> Второй раз за сутки российские истребители поднимались на перехват</a>
+                                </h2>
+                            </div>
+                            <div class="news__data news__indentation">
+                                06-06-2017
+                            </div>
+                            <div class="news__content news__indentation">
+                                <p> Российский истребитель МиГ-31 поднимался на перехват противолодочного
+                                    самолета ВВС Норвегии P-3C «Орион». Инцидент произошел над Баренцевым
+                                    морем рядом с границей России, сообщили в Минобороны, передает ТАСС.
+                                </p>
+                            </div>
+                            <div class="news__read__all news__indentation">
+                                <a href="news_1.html">Читать все</a>
+                            </div>
+                            <div class="jumper"></div>
+                        </article>
+                    </div>
+                    <div class="news__box">
+                        <article class="news">
+                            <div class="news__photo">
+                                <a href="news_1.html"><img alt="картинка новости" src="images/news/news1.jpg" title="картинка новости"></a>
+                            </div>
+                            <div class="news__link news__indentation">
+                                <h2><a href="news_1.html">Певый авокран собрали на "Зумлион-МАЗ"</a></h2>
+                            </div>
+                            <div class="news__data news__indentation">
+                                24-05-2017
+                            </div>
+                            <div class="news__content news__indentation">
+                                <p>Первую единицу техники собрали 17.05.2017г. на совместном белорусско-китайском предприятии "Зумлион-МАЗ" в Могилеве. Это автокран грузоподъемностью 25 тонн и самой длинной в Беларуси стрелой, максимально выдвигаемой на 41 метр. Это сравнимо с высотой 12-этажного дома.</p>
+                            </div>
+                            <div class="news__read__all news__indentation">
+                                <a href="news_1.html">Читать все</a>
+                            </div>
+                            <div class="jumper"></div>
+                        </article>
+                    </div>
+                    <div class="news__box news__color">
+                        <article class="news">
+                            <div class="news__photo">
+                                <a href="news_1.html"><img alt="картинка новости" src="images/news/news2.jpg" title="картинка новости"></a>
+                            </div>
+                            <div class="news__link news__indentation">
+                                <h2>
+                                    <a href="news_1.html">
+                                        Международная выставка вооружения и военной техники MILEX-2017 в "Минск-Арене
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="news__data news__indentation">
+                                23-05-2017
+                            </div>
+                            <div class="news__content news__indentation">
+                                <p>20 мая в Минске открылась Международная выставка вооружения и военной техники MILEX-2017. Основной площадкой выставки стал спорткомплекс "Минск-Арена". В выставке принимают участие почти 140 экспонентов из Беларуси, Германии, Китая, Казахстана, России, Словакии и Украины. Компании из Германии и Словакии в этом году впервые принимают участие.</p>
+                            </div>
+                            <div class="news__read__all news__indentation">
+                                <a href="news_1.html">Читать все</a>
+                            </div>
+                            <div class="jumper"></div>
+                        </article>
+                    </div>
+                    <div class="news__box">
+                        <article class="news">
+                            <div class="news__photo">
+                                <a href="news_1.html"><img alt="картинка новости" src="images/news/news3.jpg" title="картинка новости"></a>
+                            </div>
+                            <div class="news__link news__indentation">
+                                <h2><a href="news_1.html">РСЗО «Полонез» поступила в Вооруженные Силы Беларуси</a></h2>
+                            </div>
+                            <div class="news__data news__indentation">
+                                22-05-2017
+                            </div>
+                            <div class="news__content news__indentation">
+                                <p>На вооружение 336-й реактивной артиллерийской бригады Вооруженных сил Республики Беларусь поступил
+                                    комплекс реактивной системы залпового огня (РСЗО) «Полонез», предназначенный для оснащения реактивного дивизиона бригады.
+                                </p>
+                            </div>
+                            <div class="news__read__all news__indentation">
+                                <a href="news_1.html">Читать все</a>
+                            </div>
+                            <div class="jumper"></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="content__pagination wrappers__1">
+                    <div class="content__pagination__box">
+                        <div class="pagination" id="light-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="anchor__box">
+                <a href="#" id="back2Top" title="Back to top">&#10148;</a>
+            </div>
+        </div>
+    </div>
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__box wrappers__1">
+            <div class="footer__contacts">
+                <p>Контактный телефон: +375 17 316 14 38.</p>
+                <p>E-mail: volatavto@mail.ru, info@volatavto.by</p>
+            </div>
+            <div class="footer__horizontal-line"></div>
+            <div class="footer__content">
+                <p>&#169;2011 - 2017 ОАО "ВОЛАТАВТО"</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

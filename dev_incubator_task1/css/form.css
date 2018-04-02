@@ -1,0 +1,200 @@
+﻿.form_communications {
+    margin: 0 auto;
+}
+.form_communications fieldset {
+    box-sizing: border-box;
+    border: none;
+}
+.form_communications legend {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: #2294d6;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+.form_communications label {
+    display: block;
+    margin: 16px 0 32px 31px;
+}
+.button {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #DD3E18;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    padding: 13px 0 12px 0;
+}
+.icon {
+     margin: 0 0 24px 0;
+     position: relative;
+ }
+
+.icon_home_message textarea{
+    opacity: 0.6;
+}
+
+.icon_home_message textarea:hover,
+.icon input:hover {
+    opacity: 1;
+}
+
+
+
+.icon_home_message textarea::-webkit-input-placeholder,
+.icon input::-webkit-input-placeholder{
+    color: rgba(0,0,0,0.4);
+}
+
+.icon input {
+    opacity:0.6;
+    border: none;
+    line-height: 24px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 0 13px 16px;
+    border-radius: 5px;
+}
+.message:focus,
+.icon input:focus {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.icon input:focus {
+    opacity: 1;
+}
+
+
+.message {
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100px;
+    padding: 11px 0 0 16px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    line-height: 24px;
+    height: 192px;
+}
+
+.icon label {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.icon_home_message{
+    height: 192px;
+}
+
+.icon_home_file{
+    opacity:0.8;
+    position: relative;
+    color: #DD3E18;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.icon_home_file label{
+    cursor: pointer;
+    display: block;
+    margin: 16px 0 32px 31px;
+    width: 135px;
+}
+
+.icon_home_file label:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 20px;
+    background-image: url(../img/icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.icon_home_file:hover{
+    opacity: 1;
+}
+
+.icon_home_file input{
+    display: none;
+}
+
+
+.button:hover{
+    opacity:0.9;
+}
+.button:active{
+    opacity:1;
+}
+.button:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
